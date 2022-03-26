@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./hacker.css";
 import { H1, Form, Section } from "./styledComponents";
 export default function Hacker() {
+  // let value;
   let [news, setNews] = useState([]);
   let [val, setVal] = useState(1);
   let [loading, setLoading] = useState(true);
@@ -17,7 +18,7 @@ export default function Hacker() {
   };
   useEffect(() => {
     fetchNews(ipt, val);
-  }, [ipt, val]);
+  }, [val]);
 
   let removeHandler = (e) => {
     try {
