@@ -1,6 +1,6 @@
 # Pagination News Website
 
-### Link: https://hacker-news-pagination.netlify.app/
+### Link: https://news-pagination-harsh.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
